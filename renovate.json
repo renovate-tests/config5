@@ -1,5 +1,5 @@
 {
-  packageRules: [
+  "packageRules": [
 		{
 			"packageNames": ["node"],
 			"extractVersion": "^v(?<version>.*)$",
