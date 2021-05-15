@@ -1,0 +1,12 @@
+{
+  packageRules: [
+		{
+			"packageNames": ["node"],
+			"extractVersion": "^v(?<version>.*)$",
+			"commitMessageTopic": "Node.js",
+			"major": {
+				"enabled": true
+			}
+		}
+  ]
+}
